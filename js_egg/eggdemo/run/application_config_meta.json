@@ -1,0 +1,282 @@
+{
+  "keys": "/Users/Lee/Desktop/javascript_re/eggdemo/config/config.default.js",
+  "middleware": "/Users/Lee/Desktop/javascript_re/eggdemo/config/config.default.js",
+  "time": {
+    "prefix": "/Users/Lee/Desktop/javascript_re/eggdemo/config/config.default.js"
+  },
+  "ua": {
+    "uas": "/Users/Lee/Desktop/javascript_re/eggdemo/config/config.default.js"
+  },
+  "view": {
+    "defaultViewEngine": "/Users/Lee/Desktop/javascript_re/eggdemo/config/config.default.js",
+    "mapping": {
+      ".ejs": "/Users/Lee/Desktop/javascript_re/eggdemo/config/config.default.js"
+    },
+    "root": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-view/config/config.default.js"
+  },
+  "news": {
+    "url": "/Users/Lee/Desktop/javascript_re/eggdemo/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-static/config/config.default.js"
+  },
+  "ejs": {
+    "root": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-view-ejs/config/config.default.js",
+    "cache": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-view-ejs/config/config.local.js",
+    "debug": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-view-ejs/config/config.default.js",
+    "strict": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-view-ejs/config/config.default.js"
+  },
+  "env": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "name": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "version": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "description": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "main": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "dev": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "author": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "license": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "moment": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "strict": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "depth": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "env": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "level": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "logging": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "port": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/config/config.default.js"
+}

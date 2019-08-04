@@ -1,0 +1,45 @@
+2019-07-25 11:51:24,299 ERROR 14014 [-/127.0.0.1/-/10ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 14014
+hostname: Lee-pro.local
+
+2019-07-25 22:12:39,691 ERROR 28302 [-/127.0.0.1/-/11ms GET /news] nodejs.TypeError: this.ctx.url is not a function
+    at NewsService.fetch (/Users/Lee/Desktop/javascript_re/eggdemo/app/service/news.js:6:39)
+    at NewsController.index (/Users/Lee/Desktop/javascript_re/eggdemo/app/controller/news.js:7:48)
+    at Object.callFn (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/koa-compose/index.js:45:18)
+    at /Users/Lee/Desktop/javascript_re/eggdemo/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/koa-compose/index.js:44:32)
+
+pid: 28302
+hostname: Lee-pro.local
+
+2019-07-26 17:14:07,345 ERROR 54940 [-/127.0.0.1/-/14ms GET /news] nodejs.ReferenceError: us is not defined
+    at /Users/Lee/Desktop/javascript_re/eggdemo/app/middleware/ua.js:5:23
+    at dispatch (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/Lee/Desktop/javascript_re/eggdemo/app/middleware/time.js:5:15
+    at dispatch (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/Lee/Desktop/javascript_re/eggdemo/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 54940
+hostname: Lee-pro.local
+
